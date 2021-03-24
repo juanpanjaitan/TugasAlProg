@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class JavaLibsSID {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("what is your name? ");
+        String playerName = scan.next();
+        System.out.print("give me an adjective ");
+        String adjective = scan.next();
+        System.out.print("give me a verb ");
+        String verb = scan.next();
+        System.out.print("give me a number ");
+        int distance = scan.nextInt();
+        System.out.print("give me another number ");
+        int time = scan.nextInt();
+        System.out.print("if you were chased by a police what kind of transportation would you choose? ");
+        String transport = scan.next();
+        System.out.print("give me a gentle male name ");
+        String gentle = scan.next();
+        System.out.print("how much allowance that you have in a day? ");
+        int allowance = scan.nextInt();
+        System.out.print("give me a number between 0-1 ");
+        double nine = scan.nextDouble();
+        System.out.print("give me a number between 1-10 ");
+        int ten = scan.nextInt();
+        double darren = allowance*nine;
+        double juan = allowance-darren;
+        int ega = allowance*ten;
+        System.out.print("Wassup, "+playerName+"\n" +
+                "Mikasa and "+playerName+" are chosen to "+adjective+" in the land of dawn. The captain caught both of you were "+verb+" last night.\n" +
+                "The captain want you to depart from Hogwarts Accademy as soon as possible. Since, the distance between Hogwarts Accademy to land of dawn is "+distance+" m.\n" +
+                "So you need "+time+" minutes to arrive, if you use the "+transport+" wisely. Lieutenant "+gentle+" will give an order after you arrived.\n" +
+                "You, "+playerName+" are a reliable person. The captain give you "+allowance+" rupee he told you to give "+darren+" rupee to lieutenant, so you can only spend "+juan+".\n" +
+                "Since, "+playerName+" didn't use all of the money so the captain rewarded "+ega+". At the end "+playerName+" receive "+ega+" and give it to "+playerName+"'s family.");
+
+    }
+
+}
