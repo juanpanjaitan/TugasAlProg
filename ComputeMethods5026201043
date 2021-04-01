@@ -1,0 +1,21 @@
+import java.util.*;
+public class ComputeMethods5026201043 {
+    public static void main(String[] args){
+
+    }
+    public double fToC (double degreesF) {
+        double celcius = (5.0/9.0)*(degreesF-32);
+        return celcius;
+    }
+public double hypotenuse(int a, int b){
+        double c = Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+        return c;
+}
+public int roll(){
+        int min = 1;
+        int max = 6;
+        int firstDice = min + (int)(Math.random()*(max-min)+1);
+        int secondDice = min + (int)(Math.random()*(max-min)+1);
+        return firstDice+secondDice;
+}
+}
